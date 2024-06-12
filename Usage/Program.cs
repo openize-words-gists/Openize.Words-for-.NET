@@ -7,7 +7,7 @@ namespace Openize.Words.Examples.Usage
     {
         static void Main(string[] args)
         {
-
+            
             // Prepares directory Documents/Paragraph at the root of your project.
             // Check reference for more options and details.
             var paragraphExamples = new ParagraphExamples();
@@ -111,6 +111,19 @@ namespace Openize.Words.Examples.Usage
             // Modifies list paragraphs in the Word Document and saves the modified word document.
             // Check reference for more options and details.
             listExamples.ModifyMultilevelLists();
+
+            // Prepares directory Documents/Paragraph/Frame at the root of your project.
+            // Check reference for more options and details.
+            var paraFrameExamples = new Openize.Words.Examples.ParagraphFrameExamples();
+            // Creates a word document with 4 different paragraphs with frames + one paragraph without frames and saves word
+            // document to the specified directory. Check reference for more options and details.
+            paraFrameExamples.CreateParagraphsFrames();
+            // Reads Paragraphs from the specified Word Document and displays plain text with borders/frames info.
+            // Check reference for more options and details.
+            paraFrameExamples.ReadParagraphsFrames();
+            // Modifies border and text of framed paragraphs in the Word Document and saves the modified word document.
+            // Check reference for more options and details.
+            paraFrameExamples.ModifyParagraphsFrames();
         }
     }
 }

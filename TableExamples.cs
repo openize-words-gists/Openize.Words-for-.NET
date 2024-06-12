@@ -127,7 +127,7 @@
             }
             catch (System.Exception ex)
             {
-                throw new Openize.Words.FileFormatException("An error occurred.", ex);
+                throw new Openize.Words.OpenizeException("An error occurred.", ex);
             }
         }
         /// <summary>
@@ -188,7 +188,7 @@
             }
             catch (System.Exception ex)
             {
-                throw new Openize.Words.FileFormatException("An error occurred.", ex);
+                throw new Openize.Words.OpenizeException("An error occurred.", ex);
             }
         }
         /// <summary>
@@ -232,7 +232,7 @@
             }
             catch (System.Exception ex)
             {
-                throw new Openize.Words.FileFormatException("An error occurred.", ex);
+                throw new Openize.Words.OpenizeException("An error occurred.", ex);
             }
         }
     }

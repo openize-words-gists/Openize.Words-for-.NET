@@ -28,6 +28,9 @@
 - [Create Multiple Multilevel List Paragraphs of Word Document in C#](#create-multiple-multilevel-list-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/openize-words-gists/5e903077f050411ab4ffc0848f838a34)
 - [Read Multiple Multilevel List Paragraphs of Word Document in C#](#read-multiple-multilevel-list-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/openize-words-gists/cf5e6290218466bfc50f5feab50c2f85)
 - [Modify Multiple Multilevel List Paragraphs of Word Document in C#](#modify-multiple-multilevel-list-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/openize-words-gists/a0f6f0413e309a5dbb27d7e366f6ffa5)
+- [Create Multiple Frame Paragraphs of Word Document in C#](#create-multiple-frame-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/openize-words-gists/69335fe2b99e26584f57eef1b9c58468)
+- [Read Multiple Frame Paragraphs of Word Document in C#](#read-multiple-frame-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/openize-words-gists/a577267cc39bae46ace887d0860422db)
+- [Modify Multiple Frame Paragraphs of Word Document in C#](#modify-multiple-frame-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/openize-words-gists/08e214d1abbf7603657d9b42e3ed9822)
 - [Resources](#resources)
 - [System Requirements](#system-requirements)
 - [Quick Start](#quick-start)
@@ -187,6 +190,25 @@
 * If list paragraphs, modifies paragraphs by appending ' (numbering type changed to numeric)' with italic format and paragraph numbering type is changed to numeric.
 * Saves the modified Word Document.
 * [Click here to explore gist](https://gist.github.com/openize-words-gists/a0f6f0413e309a5dbb27d7e366f6ffa5)
+
+## [Create Multiple Frame Paragraphs of Word Document in C#](https://gist.github.com/openize-words-gists/69335fe2b99e26584f57eef1b9c58468)
+* Creates a new Word Document with structured content using [Openize.Words](https://www.nuget.org/packages/Openize.Words)
+* Generates two multilevel lists with different prefixes at different levels.
+* Saves the newly created Word Document.
+* [Click here to explore gist](https://gist.github.com/openize-words-gists/69335fe2b99e26584f57eef1b9c58468)
+
+## [Read Multiple Frame Paragraphs of Word Document in C#](https://gist.github.com/openize-words-gists/a577267cc39bae46ace887d0860422db)
+* Loads a Word Document with structured content using [Openize.Words](https://www.nuget.org/packages/Openize.Words)
+* Traverses paragraphs and displays its text, numbering id, numbering type and level.
+* [Click here to explore gist](https://gist.github.com/openize-words-gists/a577267cc39bae46ace887d0860422db)
+
+## [Modify Multiple Frame Paragraphs of Word Document in C#](https://gist.github.com/openize-words-gists/08e214d1abbf7603657d9b42e3ed9822)
+* Loads a Word Document with structured content using [Openize.Words](https://www.nuget.org/packages/Openize.Words)
+* Traverses through all paragraphs within the document.
+* If list paragraphs, modifies paragraphs by appending ' (numbering type changed to numeric)' with italic format and paragraph numbering type is changed to numeric.
+* Saves the modified Word Document.
+* [Click here to explore gist](https://gist.github.com/openize-words-gists/08e214d1abbf7603657d9b42e3ed9822)
+
 
 ## Resources
 * [Docs](https://www.openize.com)
