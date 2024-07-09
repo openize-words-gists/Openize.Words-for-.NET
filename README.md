@@ -1,6 +1,16 @@
+# ⚠️ Important Notice
+
+**This repository is no longer maintained.**
+
+We have moved our code and updates to a new repository. Please visit the new repository for the latest version:
+
+👉 **New Repository: [FileFormat.Words for .NET](https://github.com/fileformat-words-gists/FileFormat.Words-for-.NET)**
+
+Thank you for your interest and support!
+
 # Word Document SDK Usage Examples in C#
 
-**Openize.Words.Examples (Formerly FileFormat.Words.Examples)** - C# code examples using [Openize.Words for .NET](https://github.com/openize-words/Openize-Words-for-.NET) (Formerly FileFormat.Words) - A robust native C# SDK for creating, loading, and modifying MS Word documents.
+**Openize.Words.Examples** - C# code examples using [Openize.Words for .NET](https://github.com/openize-words/Openize-Words-for-.NET) (Formerly FileFormat.Words) - A robust native C# SDK for creating, loading, and modifying MS Word documents.
 
 ## Table of Contents
 - [Create Word Document Paragraphs in C#](#create-word-document-paragraphs-in-c) - Explore [gist](https://gist.github.com/openize-words-gists/b768640e5de61db628150a8b5bf5e923)
